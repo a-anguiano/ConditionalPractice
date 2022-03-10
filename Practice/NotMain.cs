@@ -40,6 +40,14 @@ namespace Practice
             //RollPassGo
             int rollNum = GetPositiveInterger("What did you roll? ");
             Console.WriteLine($"You rolled a {rollNum} ");
+            if (rollNum > 7 && rollNum < 12)
+            {
+                Console.WriteLine("return true");       //actually return later, just testing
+            }
+            else
+            {
+                Console.WriteLine("return false");
+            }
 
         }
         //private string PrinterCheck()
